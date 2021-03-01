@@ -16,9 +16,6 @@ router.route('/:lang').get((req, res) => {
     case "fr":
       msg = "Bonjour Monde!";
       break;
-    case "sin":
-      msg = "Que ondssss";
-      break;
     default:
       msg = "Hallo Welt!";
   }
